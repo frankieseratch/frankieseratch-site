@@ -1,2 +1,0 @@
-# frankieseratch-site
-Acting site

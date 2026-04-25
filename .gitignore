@@ -1,0 +1,10 @@
+.DS_Store
+.vercel
+node_modules
+*.log
+
+# Source headshots — keep originals out of deploy
+img/raw/
+
+# Source reel — full-resolution master, too large to ship
+reel/reel.mp4
