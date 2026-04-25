@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Frankie Seratch — Actor</title>
+  <meta name="description" content="Frankie Seratch is an actor based in New York and Los Angeles. RECLUSE premieres at Tribeca Film Festival, June 2026." />
+
+  <meta property="og:title" content="Frankie Seratch" />
+  <meta property="og:description" content="Actor based in New York and Los Angeles. RECLUSE premieres at Tribeca Film Festival, June 2026." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://frankieseratch.com/" />
+  <meta property="og:image" content="https://frankieseratch.com/img/home-menacing-1024.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://frankieseratch.com/" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0A0A'/%3E%3Ctext x='50%25' y='50%25' font-family='serif' font-size='20' fill='%23EFEFEC' text-anchor='middle' dominant-baseline='central'%3EF%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.bunny.net" />
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=fraunces:300,400,500,600|manrope:400,500,600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a href="/" class="brand" aria-label="Frankie Seratch — home">FRANKIE SERATCH</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/work.html">Work</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Reel -->
+    <section class="hero" aria-label="Reel">
+      <video
+        class="hero__media"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        poster="reel/reel-poster.webp"
+        aria-label="Frankie Seratch reel — silent loop"
+      >
+        <source src="reel/reel-hero-sm.mp4" type="video/mp4" media="(max-width: 720px)" />
+        <source src="reel/reel-hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero__overlay"></div>
+      <div class="hero__content shell">
+        <h1 class="hero__wordmark reveal reveal--1 is-in">
+          <span>Frankie</span>
+          <span>Seratch</span>
+        </h1>
+        <div class="hero__cta reveal reveal--2 is-in">
+          <a href="https://drive.google.com/file/d/1NDiC6NQnwNyofTsdvHO1yfoyUFBeF2XX/view" target="_blank" rel="noopener" class="cta">
+            Watch full reel <span class="cta__arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="/work.html" class="cta cta--ghost">
+            Work <span class="cta__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Below fold: positioning -->
+    <section class="shell">
+      <div class="position">
+        <figure class="position__media reveal reveal--1">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="img/home-menacing-480.webp 480w, img/home-menacing-768.webp 768w, img/home-menacing-1024.webp 1024w"
+              sizes="(min-width: 900px) 50vw, 100vw"
+            />
+            <img
+              src="img/home-menacing-1024.jpg"
+              srcset="img/home-menacing-480.jpg 480w, img/home-menacing-768.jpg 768w, img/home-menacing-1024.jpg 1024w"
+              sizes="(min-width: 900px) 50vw, 100vw"
+              alt="Frankie Seratch portrait, double-breasted overcoat against deep red ground"
+              width="1024"
+              height="1536"
+              loading="eager"
+            />
+          </picture>
+        </figure>
+        <div class="position__copy">
+          <p class="eyebrow reveal reveal--2">Now</p>
+          <p class="lede reveal reveal--3">
+            Actor based in New York and Los Angeles. <em>RECLUSE</em> premieres at Tribeca Film Festival, June 2026.
+          </p>
+          <div class="reveal reveal--4">
+            <a href="/work.html" class="cta">
+              Selected work <span class="cta__arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__inner">
+      <div>
+        <p class="site-footer__copy">© <span id="year">2026</span> Frankie Seratch</p>
+      </div>
+      <nav class="ext-links" aria-label="External">
+        <a href="mailto:frankie@frankieseratch.com">Contact</a>
+        <a href="https://resumes.actorsaccess.com/frankieseratch" target="_blank" rel="noopener">Actors Access</a>
+        <a href="https://www.imdb.com/" target="_blank" rel="noopener">IMDb</a>
+        <a href="https://instagram.com/frankieseratch" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
