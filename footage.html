@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Footage · Frankie Seratch</title>
+  <meta name="description" content="Reel and selected footage for Frankie Seratch." />
+
+  <meta property="og:title" content="Frankie Seratch · Footage" />
+  <meta property="og:description" content="Reel and selected footage." />
+  <meta property="og:type" content="video.other" />
+  <meta property="og:url" content="https://frankieseratch.com/footage.html" />
+  <meta property="og:image" content="https://frankieseratch.com/reel/reel-poster.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://frankieseratch.com/footage.html" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0A0A'/%3E%3Ctext x='50%25' y='50%25' font-family='serif' font-size='20' fill='%23EFEFEC' text-anchor='middle' dominant-baseline='central'%3EF%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.bunny.net" />
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=fraunces:300,400,500,600|manrope:400,500,600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a href="/" class="brand" aria-label="Frankie Seratch, home">FRANKIE SERATCH</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/footage.html" aria-current="page">Footage</a>
+        <a href="/bio.html">Bio</a>
+        <a href="/credits.html">Credits</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="shell">
+      <header class="page-lead">
+        <p class="eyebrow reveal reveal--1">Reel</p>
+        <h1 class="page-lead__title reveal reveal--2">Footage</h1>
+      </header>
+
+      <figure class="player reveal reveal--3">
+        <video
+          class="player__media"
+          controls
+          playsinline
+          preload="metadata"
+          poster="reel/reel-poster.jpg"
+          aria-label="Frankie Seratch acting reel"
+        >
+          <source src="reel/reel-hero-sm.mp4" type="video/mp4" media="(max-width: 720px)" />
+          <source src="reel/reel-hero.mp4" type="video/mp4" />
+          Your browser does not support embedded video.
+        </video>
+        <figcaption class="player__cap">Acting reel</figcaption>
+      </figure>
+
+      <figure class="still reveal">
+        <img
+          src="img/press/dunkin-still-1200.jpg"
+          srcset="img/press/dunkin-still-480.jpg 480w, img/press/dunkin-still-768.jpg 768w, img/press/dunkin-still-1200.jpg 1200w"
+          sizes="(min-width: 900px) 88vw, 100vw"
+          alt="Frankie Seratch in Dunkin&rsquo;s 2025 Super Bowl campaign, alongside Druski"
+          width="1200"
+          height="740"
+          loading="lazy"
+        />
+        <figcaption class="still__cap">
+          <span>Dunkin&rsquo; · Super Bowl 2025</span>
+          <span class="still__meta">Dir. Ben Affleck · With Druski and Jeremy Strong</span>
+        </figcaption>
+      </figure>
+
+      <section class="cx cx--last">
+        <h2 class="cx__head">More</h2>
+        <ul class="links">
+          <li>
+            <a href="https://drive.google.com/file/d/1NDiC6NQnwNyofTsdvHO1yfoyUFBeF2XX/view" target="_blank" rel="noopener">
+              <span class="links__title">Full reel</span>
+              <span class="links__meta">Google Drive</span>
+              <span class="links__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://youtu.be/1QvpuY_nWDo" target="_blank" rel="noopener">
+              <span class="links__title">RECLUSE interview, Tribeca 2026</span>
+              <span class="links__meta">With Sasha Frolova</span>
+              <span class="links__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://youtu.be/X4-om87huxI" target="_blank" rel="noopener">
+              <span class="links__title">Interview with Erik Conover</span>
+              <span class="links__meta">YouTube</span>
+              <span class="links__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://resumes.actorsaccess.com/frankieseratch" target="_blank" rel="noopener">
+              <span class="links__title">Headshots &amp; résumé</span>
+              <span class="links__meta">Actors Access</span>
+              <span class="links__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__inner">
+      <p class="site-footer__copy">&copy; <span id="year">2026</span> Frankie Seratch</p>
+      <nav class="ext-links" aria-label="External">
+        <a href="mailto:frankieseratch4@gmail.com">Email</a>
+        <a href="/frankie-seratch-resume.pdf" download>Résumé</a>
+        <a href="https://resumes.actorsaccess.com/frankieseratch" target="_blank" rel="noopener">Actors Access</a>
+        <a href="https://instagram.com/frankieseratch" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
