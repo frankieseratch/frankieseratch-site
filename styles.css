@@ -198,7 +198,8 @@ main { flex: 1; }
     aspect-ratio: auto;
     height: clamp(420px, 60vh, 560px);
   }
-  .landing__media img { object-position: center 26%; }
+  /* anchor to the top of the frame so the crop never clips the head */
+  .landing__media img { object-position: center top; }
 }
 
 .landing__copy { display: flex; flex-direction: column; gap: var(--space-4); }
@@ -364,7 +365,7 @@ main { flex: 1; }
     position: sticky;
     top: calc(var(--space-8) + 1rem);
   }
-  .bio__media img { object-position: center 22%; }
+  .bio__media img { object-position: center top; }
 }
 
 .bio__body { display: flex; flex-direction: column; gap: var(--space-5); }
